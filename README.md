@@ -23,6 +23,16 @@ Concise Description of why this app exists
 
 ### Setup
 
+1. create repo
+2. add starter code
+3. add all of the configs
+4. extract all files from `api-server` into the root of the repo
+5. `npm i` in the root of the repo and make sure that all the packages from both package.json files are installed. Ran `npm i cors bcrypt base-64 jsonwebtoken` to install the missing packages
+6. Get proof of life on the API server
+7. Insert `auth` folder from the `auth-server` into the new repo's `src` folder
+8. check paths then confirm things work
+9. models - we need ONE `models/index.js` file, so will import users from `auth/models` into `src/models`.
+
 #### `.env` requirements (where applicable)
 
 for now I have none and do not require one
