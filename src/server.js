@@ -29,6 +29,7 @@ app.use('/api/v1', v1Routes);
 app.use('*', notFoundHandler);
 app.use(errorHandler);
 
+// Exports - exports entire object to root level index.js
 module.exports = {
   server: app,
   start: port => {
